@@ -1,4 +1,5 @@
 describe "Dog" do
+  
   let(:teddy) { Dog.new(name: "Teddy", breed: "cockapoo") }
 
   before :each do
@@ -72,3 +73,4 @@ describe "Dog" do
   end
 
 end
+
